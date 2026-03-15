@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/prahaladh/argo-apps.git
     targetRevision: main
-    path: charts/go-api
+    path: my-k8s-platform/charts/go-api
     helm:
       valueFiles:
         - values.yaml
