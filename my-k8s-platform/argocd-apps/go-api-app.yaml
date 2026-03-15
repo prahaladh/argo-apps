@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/prahaladh/argo-apps.git
+    repoURL: https://github.com/YOUR_USER/my-k8s-platform.git
     targetRevision: HEAD
     path: charts/go-api
     helm:
