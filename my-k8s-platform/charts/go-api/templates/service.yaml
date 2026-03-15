@@ -6,7 +6,7 @@ spec:
   type: {{ .Values.service.type | default "ClusterIP" }} # This is the variable
   ports:
     - port: {{ .Values.service.port }}
-      targetPort: 80
+      targetPort: 8081
       {{- if eq .Values.service.type "NodePort" }}
       nodePort: {{ .Values.service.nodePort | default 30001 }}
       {{- end }}
