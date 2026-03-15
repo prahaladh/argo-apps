@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/prahaladh/argo-apps.git
-    targetRevision: HEAD
+    targetRevision: main
     path: charts/go-api
     helm:
       valueFiles:
