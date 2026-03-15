@@ -1,10 +1,10 @@
 replicaCount: 2
 image:
   repository: 3620665/go-api
-  tag: v1
+  tag: v2
   pullPolicy: IfNotPresent
 
 service:
   type: NodePort
-  port: 80
+  port: 8081
   nodePort: 32000  # Must be between 30000-32767
