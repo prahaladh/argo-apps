@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/prahaladh/argo-apps.git
     targetRevision: main
-    path: my-k8s-platform/apps/argocd-apps      # Points to the folder containing Child Apps
+    path: my-k8s-platform/argocd-apps      # Points to the folder containing Child Apps
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd      # This MUST be 'argocd'
