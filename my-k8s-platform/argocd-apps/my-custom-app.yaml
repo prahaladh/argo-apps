@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/prahaladh/argo-apps.git
-    targetRevision: HEAD
+    targetRevision: main
     path: my-k8s-platform/apps/my-web-app  # Points to your deployment/service files
   destination:
     server: https://kubernetes.default.svc
