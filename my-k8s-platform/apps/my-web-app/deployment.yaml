@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: main
-        image: nginx:1.21 # Replace with your own image
+        image: nginx:1.22 # Replace with your own image
         ports:
         - containerPort: 80
